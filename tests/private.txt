@@ -1,0 +1,39 @@
+This is a starting point for an app. 
+Provides basic user-account interface, splash screen and logged-in route filter.
+
+Required: 
+accounts-password                  1.1.1  Password support for accounts
+accounts-ui                        1.1.5  Simple templates to add login widgets to an app
+aldeed:autoform                    5.5.0  Easily create forms with automatic insert and update, and automatic reactive validation.
+aldeed:autoform-bs-datetimepicker  1.0.6  Custom bootstrap-datetimepicker input type with timezone support for AutoForm
+aldeed:collection2                 2.5.0  Automatic validation of insert and update operations on the client and server.
+aldeed:simple-schema               1.3.3  A simple schema validation object with reactivity. Used by collection2 and autoform.
+autopublish                        1.0.3  Publish the entire database to all clients
+email                              1.0.6  Send email messages
+http                               1.1.0  Make HTTP calls to remote servers
+insecure                           1.0.3  Allow all database writes by default
+jparker:crypto-base64              0.1.0  Base64 (en/de)coding for CryptoJS, standard secure crypto algorithms
+juliancwirko:s-alert               3.1.0  Simple and fancy notifications / alerts / errors for Meteor
+juliancwirko:s-alert-genie         3.1.0  Genie effect for s-alert - simple and fancy notifications / alerts for Meteor.
+kadira:blaze-layout                2.1.0  Layout Manager for Blaze (works well with FlowRouter)
+kadira:flow-router                 2.6.0  Carefully Designed Client Side Router for Meteor
+meteor-platform                    1.2.2  Include a standard set of Meteor packages in your app
+meteortoys:allthings               1.2.3  Insanely Handy Development Tools for Meteor
+momentjs:moment                    2.10.6  Moment.js (official): parse, validate, manipulate, and display dates - official Meteor packaging
+percolate:synced-cron              1.2.2  Allows you to define and run scheduled jobs across multiple servers.
+useraccounts:bootstrap             1.12.3  Accounts Templates styled for Twitter Bootstrap.
+useraccounts:flow-routing          1.12.3  UserAccounts package providing routes configuration capability via kadira:flow-router.
+
+====================================================================================================
+To setup a new app: 
+
+create the app in Meteor
+delete the existing 3 files 
+
+Copy & run this line: 
+
+	meteor add accounts-password accounts-ui useraccounts:bootstrap useraccounts:flow-routing aldeed:autoform aldeed:autoform-bs-datetimepicker aldeed:collection2 aldeed:simple-schema email http jparker:crypto-base64 juliancwirko:s-alert juliancwirko:s-alert-genie kadira:blaze-layout kadira:flow-router meteortoys:allthings momentjs:moment percolate:synced-cron
+
+copy the Skeleton folders and files to the app folder
+
+start meteor

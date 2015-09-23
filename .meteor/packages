@@ -1,0 +1,41 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+autopublish
+insecure
+accounts-password
+accounts-ui
+useraccounts:bootstrap
+useraccounts:flow-routing
+aldeed:autoform
+aldeed:autoform-bs-datetimepicker
+aldeed:collection2
+aldeed:simple-schema
+email
+http
+jparker:crypto-base64
+juliancwirko:s-alert
+juliancwirko:s-alert-genie
+kadira:blaze-layout
+kadira:flow-router
+meteortoys:allthings
+momentjs:moment
+percolate:synced-cron
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+ecmascript

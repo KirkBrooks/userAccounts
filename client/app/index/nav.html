@@ -1,0 +1,57 @@
+<!-- nav.html 
+	all the navigation HTML templates go here
+-->
+
+<template name="navigation">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">     
+	    {{> navBarItems}}
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</template>
+
+
+
+<template name="navBarItems">
+	<!-- the left side menu -->
+	<ul class="nav navbar-nav">
+	    <li class=""><a href="/about" class="">About</a></li>
+	    <li class=""><a href="/contact" class="">Contact</a></li>
+	    <li class=""><a href="/private" class="">Private</a></li>
+    </ul>
+
+    {{> navSearch}}
+	
+	<!-- right side menu -->
+	<ul class="nav navbar-nav navbar-right">
+	    <li><a href="/help">Help</a></li>  
+	    <li class="">{{> atNavButton}}</li>
+    </ul>
+</template>
+
+
+
+<template name="navSearch">
+	<form class="navbar-form navbar-left" role="search">
+	  <div class="form-group">
+	    <input name="searchTerm" type="text" class="form-control" placeholder="Search">
+	  </div>
+	  <button id="btn-search" type="submit" class="btn btn-default">Submit</button>
+	</form>
+</template>
+
+

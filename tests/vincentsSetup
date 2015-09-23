@@ -1,0 +1,53 @@
+http://vstark.net/2014/09/25/4-things-with-meteor/
+
+.
+├── client
+	├── app
+		├── dashboard
+			├── dashboard.jade
+			├── dashboard.js
+			├── map.jade
+			└── map.js
+		├── index
+			├── 404.jade
+			├── index.jade
+			├── index.js
+			├── navbar.jade
+			├── navbar.js
+			├── sidebar.jade
+			└── sidebar.js
+		├── login
+			├── login.jade
+			└── login.js
+	├── lib
+		├── css
+			├── _1bootstrap.min.css
+			├── bootstrap-editable.css
+			└── leaflet.css
+		└── js
+		    ├── _1bootstrap.min.js
+		    ├── _7bootstrap-editable.min.js
+		    └── _8leaflet.js
+	└── styles
+	    └── main.css
+├── model.js
+├── public
+	├── fonts
+		├── FontAwesome.otf
+		├── fontawesome-webfont.eot
+		├── fontawesome-webfont.svg
+		├── fontawesome-webfont.ttf
+		├── fontawesome-webfont.woff
+		├── glyphicons-halflings-regular.eot
+		├── glyphicons-halflings-regular.svg
+		├── glyphicons-halflings-regular.ttf
+		└── glyphicons-halflings-regular.woff
+	└── img
+	    ├── marker-icon-2x.png
+	    ├── marker-icon-red-2x.png
+	    ├── marker-icon.png
+	    ├── marker-shadow.png
+	    ├── profile-pic.jpg
+	    └── user.jpg
+└── server
+    └── server.js

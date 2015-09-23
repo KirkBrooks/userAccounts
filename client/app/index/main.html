@@ -1,0 +1,74 @@
+<!-- client/app/index/main.html -->
+
+<template name="mainLayout">
+	<body>
+		{{> sAlert}}
+		{{> navigation}}
+
+		<div class="container">
+			<div class="content">
+				{{> Template.dynamic template=content}}
+			</div>
+		</div>
+
+		<footer>
+		<hr />
+			<div class="container">
+				{{> mainFooter}}
+			</div>
+		</footer>
+	</body>
+</template>
+
+<!-- ========================================== -->
+
+
+<template name="splash">
+	<div class="jumbotron">
+		<h1>Welcome to new Project!</h1>
+		<p>And this is where I'm going to talk about all the great things you can do with it!</p>
+	</div>
+</template>
+
+
+
+<template name="main">
+	<div class="row">
+		<h1>This is the Main Template</h1>
+		<p>Only logged in users will see it. Otherwise they get the Splash. </p>
+	</div>	
+</template>
+
+
+<template name="about">
+	<div class="row">
+		<h1>This is the About Template</h1>
+		<p>All users will see it.</p>
+	</div>	
+</template>
+
+
+<template name="contact">
+	<div class="row">
+		<h1>This is the Contact Template</h1>
+		<p>All users will see it.</p>
+	</div>	
+</template>
+
+<template name="help">
+	<div class="row">
+		<h1>This is the Help Template</h1>
+		<p>It may actually be better to link to help site...</p>
+	</div>	
+</template>
+
+
+<template name="mainFooter">
+	<div class="row">
+	{{#if currentUser}}
+		<div class="pull-left"><h4>Signed in as {{currentUser.username}}</h4></div>
+	{{/if}}
+		<p>This is the footer</p>
+	</div>
+</template>
+
