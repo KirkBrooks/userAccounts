@@ -3,22 +3,18 @@
 */
 
 Template.navSearch.events({
-	'click #search-btn': function (event, tpl) {
+	'click #btn-search': function (event, tpl) {
 		 event.preventDefault();
 		$('[id=search-form]').toggle();
-		console.log("Click on search button"); 
 
 	},
-	'submit': function (event, tpl) {
-		event.preventDefault();
-
+	'blur #searchTerm': function (event) {
 		var srchTerm = $('[name=searchTerm]').val();
-		if (srchTerm) {
+		var isViz = $('[id=search-form]').css("display")
+		
+		if (isViz && srchTerm) {
 			sAlert.info("This would search for '" + srchTerm + "'.");
-			$('[name=searchTerm]').val("");
-		} else {
-			sAlert.error("Enter something to serarch for first.");
-		}
+			}
 	}
 });
 
