@@ -21,7 +21,6 @@ juliancwirko:s-alert
 juliancwirko:s-alert-genie
 kadira:blaze-layout
 kadira:flow-router
-meteortoys:allthings
 momentjs:moment
 percolate:synced-cron
 standard-minifiers
@@ -39,3 +38,4 @@ ejson
 spacebars
 check
 ecmascript
+meteortoys:allthings

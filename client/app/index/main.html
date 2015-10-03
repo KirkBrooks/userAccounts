@@ -64,11 +64,12 @@
 
 
 <template name="mainFooter">
-	<div class="row">
+	<div class="well well-sm">
 	{{#if currentUser}}
-		<div class="pull-left"><h4>Signed in as {{currentUser.username}}</h4></div>
-	{{/if}}
+		<h4>Signed in as {{currentUser.username}}</h4>
+	{{else}}
 		<p>This is the footer</p>
+	{{/if}}
 	</div>
 </template>
 
