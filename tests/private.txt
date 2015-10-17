@@ -2,27 +2,42 @@ This is a starting point for an app.
 Provides basic user-account interface, splash screen and logged-in route filter.
 
 Required: 
-accounts-password                  1.1.1  Password support for accounts
-accounts-ui                        1.1.5  Simple templates to add login widgets to an app
-aldeed:autoform                    5.5.0  Easily create forms with automatic insert and update, and automatic reactive validation.
+accounts-password                  1.1.3  Password support for accounts
+accounts-ui                        1.1.6  Simple templates to add login widgets to an app
+aldeed:autoform                    5.7.1  Easily create forms with automatic insert and update, and automatic reactive validation.
 aldeed:autoform-bs-datetimepicker  1.0.6  Custom bootstrap-datetimepicker input type with timezone support for AutoForm
 aldeed:collection2                 2.5.0  Automatic validation of insert and update operations on the client and server.
 aldeed:simple-schema               1.3.3  A simple schema validation object with reactivity. Used by collection2 and autoform.
-autopublish                        1.0.3  Publish the entire database to all clients
-email                              1.0.6  Send email messages
-http                               1.1.0  Make HTTP calls to remote servers
-insecure                           1.0.3  Allow all database writes by default
+autopublish                        1.0.4  (For prototyping only) Publish the entire database to all clients
+blaze-html-templates               1.0.1  Compile HTML templates into reactive UI with Meteor Blaze
+check                              1.0.6  Check whether a value matches a pattern
+ecmascript                         0.1.5  Compiler plugin that supports ES2015+ in all .js files
+ejson                              1.0.7  Extended and Extensible JSON library
+email                              1.0.7  Send email messages
+http                               1.1.1  Make HTTP calls to remote servers
+insecure                           1.0.4  (For prototyping only) Allow all database writes from the client
 jparker:crypto-base64              0.1.0  Base64 (en/de)coding for CryptoJS, standard secure crypto algorithms
-juliancwirko:s-alert               3.1.0  Simple and fancy notifications / alerts / errors for Meteor
+jquery                             1.11.4  Manipulate the DOM using CSS selectors
+juliancwirko:s-alert               3.1.1  Simple and fancy notifications / alerts / errors for Meteor
 juliancwirko:s-alert-genie         3.1.0  Genie effect for s-alert - simple and fancy notifications / alerts for Meteor.
 kadira:blaze-layout                2.1.0  Layout Manager for Blaze (works well with FlowRouter)
-kadira:flow-router                 2.6.0  Carefully Designed Client Side Router for Meteor
-meteor-platform                    1.2.2  Include a standard set of Meteor packages in your app
-meteortoys:allthings               1.2.3  Insanely Handy Development Tools for Meteor
+kadira:flow-router                 2.7.0  Carefully Designed Client Side Router for Meteor
+logging                            1.0.8  Logging facility.
+meteor-base                        1.0.1  Packages that every Meteor app needs
+meteortoys:allthings               2.1.1  Insanely Handy Development Tools for Meteor
+mobile-experience                  1.0.1  Packages for a great mobile user experience
 momentjs:moment                    2.10.6  Moment.js (official): parse, validate, manipulate, and display dates - official Meteor packaging
-percolate:synced-cron              1.2.2  Allows you to define and run scheduled jobs across multiple servers.
-useraccounts:bootstrap             1.12.3  Accounts Templates styled for Twitter Bootstrap.
-useraccounts:flow-routing          1.12.3  UserAccounts package providing routes configuration capability via kadira:flow-router.
+mongo                              1.1.2  Adaptor for using MongoDB and Minimongo over DDP
+percolate:synced-cron              1.3.0  Allows you to define and run scheduled jobs across multiple servers.
+random                             1.0.4  Random number generator and utilities
+reload                             1.1.4  Reload the page while preserving application state.
+session                            1.1.1  Session variable
+spacebars                          1.0.7  Handlebars-like template language for Meteor
+standard-minifiers                 1.0.1  Standard minifiers used with Meteor apps by default.
+tracker                            1.0.9  Dependency tracker to allow reactive callbacks
+useraccounts:bootstrap             1.12.4  Accounts Templates styled for Twitter Bootstrap.
+useraccounts:flow-routing          1.12.4  UserAccounts package providing routes configuration capability via kadira:flow-router.
+
 
 ====================================================================================================
 To setup a new app: 
@@ -37,3 +52,7 @@ Copy & run this line:
 copy the Skeleton folders and files to the app folder
 
 start meteor
+
+
+
+
